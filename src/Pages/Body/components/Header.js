@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './header.module.scss';
-import Card from './components/Card';
+import Card from '../../../components/Card';
 import { useState } from 'react';
 
 const Header = () => {

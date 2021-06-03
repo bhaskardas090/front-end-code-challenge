@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './navbar.module.scss';
-import profile from '../assets/profile_big.png';
-import call from '../assets/call.svg';
-import mail from '../assets/mail.svg';
-import message from '../assets/message.svg';
+import profile from '../../assets/profile_big.png';
+import call from '../../assets/call.svg';
+import mail from '../../assets/mail.svg';
+import message from '../../assets/message.svg';
 
 const Navbar = () => {
   return (

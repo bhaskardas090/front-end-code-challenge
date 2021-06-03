@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './Header';
-import TourPackages from './TourPackages';
-import Refer from './Refer';
+import Header from './components/Header';
+import TourPackages from './components/TourPackages';
+import Refer from './components/Refer';
 
 const Body = () => {
   return (

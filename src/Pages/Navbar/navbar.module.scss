@@ -1,8 +1,9 @@
 .navbar{
   background: transparent linear-gradient(345deg, rgba(38, 39, 88, 1) 0%, rgba(64, 66, 177, 1) 100%) 0% 0% no-repeat padding-box;
-  height: 100vh;
+  height: 100%;
   border-radius: 0px 47px 0px 0px;
   overflow: hidden;
+  position: fixed;
   .navbar_profile_part{
     margin: 50px 0 50px 40px;
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './wideCard.module.scss';
-import plane from '../../../assets/plane.svg';
+import plane from '../assets/plane.svg';
 
 const WideCard = () => {
   return (
