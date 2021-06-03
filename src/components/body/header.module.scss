@@ -1,0 +1,47 @@
+.header{
+  height: 30%;
+  background-color: #F4F4FB;
+  padding-left: 66px;
+  padding-top: 66px;
+
+  .header_name_button{
+    display: flex;
+    justify-content: space-between;
+
+    .header_name{
+    font-size: 24px;
+    color: #5C5C5C;
+    padding-bottom: 24px;
+    span{
+      color: #3D3FA8  ;
+    }
+  }
+  .header_button{
+    text-align: center;
+    margin-right: 59px;
+    padding:16px 32px;
+    border-radius: 50px;
+    background-color: rgba(70, 72, 195, 1);
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 1px solid transparent;
+    box-shadow: 0px 5px 10px rgba(38, 39, 88, 0.2);
+
+    }
+  
+  }
+  .sub_header{
+    font-size: 36px;
+    color: rgba(44, 44, 44, 1);
+    font-weight: 400;
+    margin-bottom: 28px;
+  }
+
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+
+  }
+
+}
