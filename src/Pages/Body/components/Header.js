@@ -6,17 +6,20 @@ import { useState } from 'react';
 const Header = () => {
   const [cards] = useState([
     {
+      id: 1,
       image: 'form',
       title: 'Fill up the form',
       description: 'Fill in your basic information to join the Gym Club',
     },
     {
+      id: 2,
       image: 'gym',
       title: 'Find your perfect gym',
       description:
         'Easily find your perfect gym club and join the club instantly.',
     },
     {
+      id: 3,
       image: 'progress',
       title: 'Track your progress',
       description: 'Analyze and plan for your tasks and progress.',
@@ -35,6 +38,7 @@ const Header = () => {
       <div className={styles.cards}>
         {cards.map((card) => (
           <Card
+            key={card.id}
             image={card.image}
             title={card.title}
             description={card.description}

@@ -1,0 +1,39 @@
+  .input{
+    width: 328px;
+    height: 49px;
+    padding-left: 16px;
+    outline: none;
+    border: 1px solid #9F9F9F;
+
+    &:focus{
+    border-radius: 4px;
+    border: 1px solid #3C498A;
+    }
+    &::placeholder{
+      color: #555555;
+      font-size: 13px;
+      font-weight: 600;
+    }
+  }
+
+  .input:focus {
+    &::placeholder{
+      position: absolute;
+      font-size: 10px;
+      padding-top: -10px;
+    }
+  }
+  
+  // input:focus ~ .floating_label{
+  //   font-size: 10px;
+  //   padding-top: 5px;
+  // }
+
+  // .floating_label{
+  //   position: absolute;
+  //   pointer-events: none;
+  //   left: 19vw;
+  //   padding-top: 15px;
+  //   font-size: 13px;
+  //   transition: 0.2s ease all;
+  // }
